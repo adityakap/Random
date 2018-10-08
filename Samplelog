@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testcases>
+    <testcase assertions="1" classname="Series/Season/Episode API 2-1" name="Series/Season/Episode API 2-1" time="0.0">
+        <system-out>
+            httpResponseCode=200,
+            httpResponseMessage=OK,
+            threadName=Series/Season/Episode API 2-1,
+            skipped = false,
+            disabled = false
+        </system-out>
+    </testcase>
+    <testcase assertions="2" classname="Series/Season/Episode API 2-1" name="Series/Season/Episode API 2-1" time="0.335">
+        <system-out>
+            httpResponseCode=400,
+            httpResponseMessage=Bad Request,
+            threadName=Series/Season/Episode API 2-1,
+            skipped = false,
+            disabled = false
+        </system-out>
+    </testcase>
+    <testcase assertions="3" classname="Series/Season/Episode API 2-1" name="Series/Season/Episode API 2-1" time="0.352">
+        <system-out>
+            httpResponseCode=500,
+            httpResponseMessage=Internal Server Error,
+            threadName=Series/Season/Episode API 2-1,
+            skipped = false,
+            disabled = false
+        </system-out>
+    </testcase>
+    <testcase assertions="4" classname="Series/Season/Episode API 2-1" name="Series/Season/Episode API 2-1" time="0.352">
+        <system-out>
+            httpResponseCode=200,
+            httpResponseMessage=OK,
+            threadName=Series/Season/Episode API 2-1,
+            skipped = false,
+            disabled = false
+        </system-out>
+    </testcase>
+    <testcase assertions="5" classname="Series/Season/Episode API 2-1" name="Series/Season/Episode API 2-1" time="0.352">
+        <system-out>
+            httpResponseCode=200,
+            httpResponseMessage=OK,
+            threadName=Series/Season/Episode API 2-1,
+            skipped = false,
+            disabled = false
+        </system-out>
+    </testcase>
+    <testcase assertions="5" classname="Series/Season/Episode API 2-1" name="Series/Season/Episode API 2-1" time="0.352">
+        <system-out>
+            skipped = true,
+            disabled = false
+        </system-out>
+    </testcase>
+    <testcase assertions="5" classname="Series/Season/Episode API 2-1" name="Series/Season/Episode API 2-1" time="0.352">
+        <system-out>
+            skipped = false,
+            disabled = true
+        </system-out>
+    </testcase>
+</testcases>
