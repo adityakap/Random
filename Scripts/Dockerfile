@@ -19,7 +19,7 @@ RUN    apk update \
             && echo "Europe/Rome" >  /etc/timezone \
 	&& rm -rf /var/cache/apk/* \
 	&& mkdir -p /tmp/dependencies
-RUN curl -s  -H "Authorization: token ${YOUR_TOKEN}" -L 'https://api.github.com/repos/d3sw/QA-OWF-Automation/contents/Tools/jmeter/' | grep tgz | grep ${JMETER_VERSION} | grep download_url | cut -d' ' -f6 | rev | cut -c 2- | rev | xargs -n1 curl -H "Authorization: token ${YOUR_TOKEN}" -o /tmp/dependencies/apache-jmeter-${JMETER_VERSION}.tgz -L
+RUN curl -s  -H "Authorization: token ${YOUR_TOKEN}" -L 'XXXXXXXXXXXXXXXXXXX' | grep tgz | grep ${JMETER_VERSION} | grep download_url | cut -d' ' -f6 | rev | cut -c 2- | rev | xargs -n1 curl -H "Authorization: token ${YOUR_TOKEN}" -o /tmp/dependencies/apache-jmeter-${JMETER_VERSION}.tgz -L
 RUN mkdir -p /opt  \
 	&& tar -xzf /tmp/dependencies/apache-jmeter-${JMETER_VERSION}.tgz -C /opt  \
 	&& rm -rf /tmp/dependencies
